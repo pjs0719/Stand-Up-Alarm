@@ -14,9 +14,9 @@
     <script>
         Notification.requestPermission();
         function test() {
-        new Notification("1번", {body:'메세지내용'});
+        new Notification("스트레칭 시간입니다.", {body:'스트레칭 후 1시간이 경과했습니다.'});
         }
-        setInterval(test, 10000);
+        setInterval(test, 3600000);
     
     </script>
 </body>
